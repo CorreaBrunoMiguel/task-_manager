@@ -1,12 +1,15 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import PrivateRoute from "./routes/PrivateRoute";
+
 import Login from "./pages/Auth/Login";
 import SignUp from "./pages/Auth/SignUp";
+
 import Dashboard from "./pages/Admin/Dashboard";
 import ManagerTask from "./pages/Admin/ManageTask";
 import CreateTask from "./pages/Admin/CreateTask";
 import ManageUsers from "./pages/Admin/ManageUsers";
+
 import UserDashboard from "./pages/User/UserDashboard";
 import MyTasks from "./pages/User/MyTasks";
 import ViewTaskDetails from "./pages/User/ViewTaskDetails";
